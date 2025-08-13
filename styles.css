@@ -1,0 +1,184 @@
+body {
+  width: 300px;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  color: #23282d;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.spoiler{
+    display: block;
+  margin-bottom: 3px;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+label {
+  font-size: 13px;
+  color: #555;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: inherit;
+}
+#copy-cell-style1{
+border: 2px solid #000000; background-color: #b3e6ff;
+}
+#copy-cell-style1:hover{
+  background-color: #7da3b6;
+}
+#copy-cell-style2:hover{
+  background-color: #bb8e8e;
+}
+#copy-cell-style3:hover{
+  background-color: #a5b398;
+}
+#copy-cell-style4:hover{
+  background-color: #8d7d7d;
+}
+#copy-cell-style2{
+background: #ffd1d1;
+border: 2px solid #000000;
+}
+#copy-cell-style3{
+background: #eaf8db;
+border: 2px solid #000000;
+}
+#copy-cell-style4{
+background: #e8e8e8;
+border: 2px solid #000000;
+}
+input[type="number"] {
+  width: 50px;
+}
+tr{
+border: 2px solid #000000;  
+}
+textarea {
+  min-height: 60px;
+  resize: vertical;
+}
+.gap{
+ background: #c0c0c0;
+}
+details{
+  background: #2271b1;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 5px;
+}
+details:hover {
+  background: #135e96;
+}
+button {
+  background: #2271b1;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+button:hover {
+  background: #135e96;
+}
+
+#status-message {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+details {
+  margin-bottom: 10px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+/* Для страници */
+.toggle-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2271b1;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 24px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

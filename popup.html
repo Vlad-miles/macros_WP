@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>WP</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="panel-toggle">
+        <span class="slider round"></span>
+      </label>
+      <span>Добавить панель на страницу</span>
+    </div>
+    
+    <h1>Макросы</h1>
+    <details><summary>Генератор спойлера</summary>
+    <div class="input-group">
+      <label class="spoiler" for="spoiler-title">Заголовок:</label>
+      <input type="text" id="spoiler-title" value="название">
+    </div>
+    <div class="input-group">
+      <label class="spoiler" for="spoiler-content">Текст:</label>
+      <textarea id="spoiler-content">текст</textarea>
+    </div>
+    <button id="copy-button">Скопировать спойлер</button>
+  
+</details>
+<div class="gap">
+<h3>Информации для закрепа - Шаг 1</h3>
+ <div class="input-group">
+      <button id="copy-blue-table">Скопировать таблицу "Внимание"</button>
+    </div>
+      <div class="input-group">
+      <button id="copy-table-cell-style">Скопировать таблицу "Важно"</button>
+    </div>
+    <h3>Информации для закрепа - Шаг 2</h3>
+<table class="iksweb">
+		<tr>
+			<td colspan="4"> 
+       
+    Параметры цвета</td>
+			<td>Параметр рамки</td>
+      </button></td>
+		</tr>
+		<tr>
+			 <td>
+        <div class="input-group">
+       <button id="copy-cell-style1">*</button>
+    </div>
+  </td>
+      <td>
+        <div class="input-group">
+       <button id="copy-cell-style2">*</button>
+    </div>
+  </td>
+  <td>
+        <div class="input-group">
+       <button id="copy-cell-style3">*</button>
+    </div>
+  </td>
+  <td>
+        <div class="input-group">
+       <button id="copy-cell-style4">*</button>
+    </div>
+  </td>
+				<td><div class="input-group">
+       <button id="copy-cell-style">Стиль ячейки для таблиц</button>
+    </div></td>
+		</tr>
+</table>
+     </div>
+    <details><summary>Копирование стиля для таблиц</summary>
+<div class="input-group">
+        <button id="copy-wide-border">Таблица - Широкая рамка</button>
+      </div>
+      <div class="input-group">
+        <button id="copy-narrow-border">Таблица - Узкая рамка</button>
+      </div>
+      <div class="input-group">
+        <button id="copy-gray-bg">Таблица - С серым фоном</button> </div>
+    </details>
+<div id="status-message"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
