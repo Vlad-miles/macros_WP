@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gupdate xmlns='http://www.google.com/update2/response'>
   <app appid='ваш-id-расширения'>
-    <updatecheck codebase='https://github.com/ваш-username/ваш-репозиторий/raw/main/extension.zip' version='3.0' />
+    <updatecheck codebase='https://github.com/Vlad-miles/macros_WP/releases/latest/download/extension.zip' version='3.0' />
   </app>
 </gupdate>
