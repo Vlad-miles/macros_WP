@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "WordPress макросы",
-  "version": "3.0",
+  "version": "3.5",
   "description": "Добавляет макросы для копирования в WordPress",
   "action": {
     "default_popup": "popup.html",
@@ -25,4 +25,5 @@
     "scripting",
     "storage"
   ]
+
 }
